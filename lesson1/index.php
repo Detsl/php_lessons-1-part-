@@ -32,6 +32,20 @@ define("CONSTANT", "HELLO WORLD! I AM CONSTANT.");
 
 
 
-echo "$int <br/> $float <br/> $bulean <br/> $str<br/>  " . CONSTANT;
+echo "$int <br/> $float <br/> $bulean <br/> $str<br/>  " . CONSTANT ."<br/>";
+?>
+
+
+<?php
+$x = 10;
+$y = 15;
+
+$y+=$x;
+$x = $y -$x;
+$y-=$x;
+echo "Икс теперь =$x.<br/> А игрик тперь =$y";
+
+
+?>
 
 
